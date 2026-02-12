@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  padding: 2rem;
+  background: linear-gradient(135deg, #fafafa, #e0e0e0);
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  margin-bottom: 1rem;
+}
+
+.upload-section {
+  border: 2px dashed #888;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  background: rgba(255,255,255,0.7);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.card img {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
